@@ -206,20 +206,22 @@ nav > .logo{
     /* gap: 1.0rem; */
 }
 
-.but > button:nth-child(1){
+.but > .button:nth-child(1){
     margin-right: 15px;
 }
 
-.but > button {
+.but > .button {
     min-width: 130px;
     height: 40px;
     color: rgb(1, 32, 32)   ;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+    text-decoration: none;
+    text-align: center;
     outline: none;
     border-radius: 5px;
     border: none;
@@ -227,14 +229,14 @@ nav > .logo{
     background: #0CABA8;
     z-index: 1;
   }
-  .but > button:hover:after {
+  .but > .button:hover:after {
     width: 100%;
     left: 0;
   }
-  .but > button:hover {
+  .but > .button:hover {
     color: #0CABA8;
   }
-  .but > button:after {
+  .but > .button:after {
     border-radius: 5px;
     position: absolute;
     content: "";
@@ -247,7 +249,7 @@ nav > .logo{
     background-color: #023535;
     right: 0;
   }
-  .but > button:active {
+  .but > .button:active {
     top: 2px;
   }
   .contact_f > .btn{
