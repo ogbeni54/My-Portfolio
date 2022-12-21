@@ -48,7 +48,10 @@ nav{
     align-items: center;
 }
 nav > .logo{
-    color: #0CABA8;
+    /* color: #0CABA8; */
+    background: linear-gradient(91.47deg, #DC3E88 18.25%, #0CABA8 43.34%, #DC3E88 78.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-size: large;
     font-weight: 900;
@@ -368,6 +371,12 @@ nav > .logo{
     font-weight: 700;
     margin: 8px 0;
     color: #008F8C;
+}
+
+.small_cont > h3{
+    background: linear-gradient(91.47deg, #DC3E88 18.25%, #0CABA8 43.34%, #DC3E88 78.18%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .small_cont > h3, .me{
