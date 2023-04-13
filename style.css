@@ -497,7 +497,7 @@ nav > .logo{
     
 .small_cont > .fp {
     margin: 20px auto;
-    width: 70%;
+    width: 90%;
 }
 .small_cont > h3{
     font-size: 3vw;
@@ -567,6 +567,24 @@ nav > .logo{
 }
 
 @media screen and (max-width: 570px) {
+   .container{
+    width: 95%;
+    margin: 50px auto;
+   }
+   .small_cont > .fp {
+    width: 100%;
+    margin: 0px auto;
+   }
+   .small_cont > h1{
+    font-size: 45px;
+   }
+
+   .small_cont > h2{
+    margin: 5px 0;
+   }
+   .small_cont > h3{
+    margin: 10px auto;
+   }
     .tech > div{
         width: 45%;
     }
